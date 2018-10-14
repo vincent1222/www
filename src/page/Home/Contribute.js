@@ -78,7 +78,7 @@ class Contribute extends React.Component {
               <Form.Item>
                 {getFieldDecorator('snsInfo', {
                   rules: [{required: true, message: '请输入要贡献的 cookie snsInfo'}]
-                })(<Input.TextArea placeholder="请输入要贡献的 cookie snsInfo" autosize={{minRows: 8}} />)}
+                })(<Input.TextArea placeholder="请输入要贡献的 cookie snsInfo" autosize={{minRows: 8, maxRows: 8}} />)}
               </Form.Item>
             </div>
           )}
@@ -89,7 +89,7 @@ class Contribute extends React.Component {
               })(
                 <Input.TextArea
                   placeholder="请输入要贡献的完整 cookie，需同时包含 SID 和 snsInfo"
-                  autosize={{minRows: 10}}
+                  autosize={{minRows: 10, maxRows: 10}}
                 />
               )}
             </Form.Item>
