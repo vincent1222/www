@@ -70,6 +70,7 @@ injectGlobal`
   
   .ant-tabs-nav .ant-tabs-tab {
     margin-right: 5px;
+    padding: 12px;
   }
   
   .ant-breadcrumb a {

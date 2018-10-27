@@ -117,7 +117,7 @@ export default class Home extends React.Component {
             <Tabs.TabPane tab="统计" key="statistics">
               <Statistics data={trendData} pieData={pieData} />
             </Tabs.TabPane>
-            <Tabs.TabPane tab="小程序" key="mp">
+            <Tabs.TabPane tab="公众号/小程序" key="mp">
               <MiniProgram />
             </Tabs.TabPane>
             <Tabs.TabPane tab="加群" key="joinGroup">

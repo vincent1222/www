@@ -23,6 +23,8 @@ export default class MiniProgram extends React.Component {
   render() {
     return (
       <div style={{textAlign: 'center'}}>
+        <p>暂时只有订阅号（哪位大佬提供资质搞个服务号）</p>
+        <img width={200} src={require('../../static/gongzhonghao.jpg')} alt="订阅号码" />
         <p>使用微信扫描小程序码，或搜索小程序“一键最佳”</p>
         <img width={200} src={require('../../static/miniprogram.jpg')} alt="小程序码" />
         <p />
